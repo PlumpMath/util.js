@@ -21,3 +21,8 @@ out ideas.
 * `mkparams(params)`, creates a url-params string from a map
     - `mkparams({greeting: "hullo", who: "world"}) //=> "&greeting=hullo?who=world"`
 * `slug(str)`, `slug("Hello, this is a WONDERFUL String! (with stuff) ") // => "Hello-this-is-a-WONDERFUL-String-with-stuff"`
+
+## Wishlist
+
+* functions: el, html
+* a demo (preferrably right here, with One Click™)
