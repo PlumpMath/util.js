@@ -8,3 +8,5 @@ var qa=function(sel){return document.querySelectorAll(sel)}
 var range=function(from,to){var ary = [];for(var i=0;i<from+to;i++){ary[from+i]=from+i;};return ary}
 
 var slug=function(str){return str.replace(/[^\w\d\s]/g, "").trim().replace(/\s+/g, "-")}
+
+var ary=function(indexable){var ary=[];for(var i=0;i<indexable.length;i++){ary[i]=indexable[i];};return ary}

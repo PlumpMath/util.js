@@ -10,6 +10,8 @@ out ideas.
 * `q(sel)`, `document.querySelector`
 * `qa(sel)`, `document.querySelectorAll`
 * `range(from,to)`, `range(35, 42) //=> [35, 36, 37, 38, 39, 40, 41]`
+* `ary(indexable)`, transform something accessible by index into a real array
+    - useful for e.g. `ary(qa("p")).map(function(_){_.textContent = "whoopey!"})`
 * `req(params)`, creates a XMLHttpRequest, you must `.send()` it yourself
     - `params.url`: the url to be used
     - `params.verb`: the http verb to use (default: `GET`)
