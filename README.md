@@ -5,6 +5,10 @@ Cute, small & lovely JavaScript elves.
 These are smallish functions I like to have around when quickly trying
 out ideas.
 
+To try it, you could use the following bookmarklet:
+
+    javascript:var s=document.createElement("script");s.src="https://gist.github.com/heyLu/6065025/raw/8d88c7fea7cf10c6ab02fbbb8af3fa6c46070a13/util-v0.js";document.body.appendChild(s)
+
 ## Glossary
 
 * `q(sel)`, `document.querySelector`
