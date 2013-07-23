@@ -10,7 +10,7 @@ out ideas.
 * `q(sel)`, `document.querySelector`
 * `qa(sel)`, `document.querySelectorAll`
 * `range(from,to)`, `range(35, 42) //=> [35, 36, 37, 38, 39, 40, 41]`
-* `req(params)`, creates a XMLHttpRequest
+* `req(params)`, creates a XMLHttpRequest, you must `.send()` it yourself
     - `params.url`: the url to be used
     - `params.verb`: the http verb to use (default: `GET`)
     - `params.headers`: map of headers (default: `{}`)
