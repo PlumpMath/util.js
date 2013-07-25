@@ -15,7 +15,7 @@ To try it, you could use the following bookmarklet:
 * `qa(sel)`, `document.querySelectorAll`
 * `el(name)`, `document.createElement`
 * `html(str)`, creates html elements from the string
-    - `html("<h1>ANN: elves!</h1><p>yes.</p>") //=> [<h1>ANN: elves!</h1>, <p>yes.</p>]
+    - `html("<h1>ANN: elves!</h1><p>yes.</p>") //=> [<h1>ANN: elves!</h1>, <p>yes.</p>]`
 * `range(from,to)`, `range(35, 42) //=> [35, 36, 37, 38, 39, 40, 41]`
 * `ary(indexable)`, transform something accessible by index into a real array
     - useful for e.g. `ary(qa("p")).map(function(_){_.textContent = "whoopey!"})`
